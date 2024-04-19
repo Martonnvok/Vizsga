@@ -1,0 +1,37 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "vizsga",
+    "dateExported": "2024-04-19T13:33:29.716Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "da39baf1-d307-45d4-9471-35c5d74429da",
+            "colId": "735abc44-d5c4-431e-ae95-0af5a2b3c740",
+            "containerId": "",
+            "name": "http://localhost:8000/api/tesztek/kategoria",
+            "url": "http://localhost:8000/api/kategoria",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-19T12:08:18.020Z",
+            "modified": "2024-04-19T12:08:18.020Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9e79f315-5306-4720-aa94-5affd7e89fa6",
+            "colId": "735abc44-d5c4-431e-ae95-0af5a2b3c740",
+            "containerId": "",
+            "name": "https://localhost:8000/api/tesztek/kategoria/1",
+            "url": "http://localhost:8000/api/tesztek",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-19T12:08:23.643Z",
+            "modified": "2024-04-19T12:08:23.643Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

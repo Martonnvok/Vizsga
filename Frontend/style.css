@@ -1,0 +1,95 @@
+body{
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: white;
+    margin: 20px;
+    
+}
+article{
+    background-color: white;
+    margin: 20px;
+}
+.dropbtn {
+    background-color: white;
+    border-color: black;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border-color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    border-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;
+    border-color: black;}
+  
+  .dropdown:hover .dropdown-content {display: block;
+    border-color: black;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;
+    border-color: black;}
+
+  .container{
+    background-color: gray;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 15px;
+  }
+
+  .col{
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  div .col::after{
+    background-color: #3e8e41;
+  }
+
+  h2{
+    border: 1px solid rgb(80, 77, 77);
+    background-color: rgb(80, 77, 77);
+    color:white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  h1{
+    color: black;
+  }
+  
